@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 27.7vw;
+    background: black;
+    color: white;
+    height: 60px;
+    width: 565px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.todo .icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 22px;
+}
+.todo .icons .icon {
+    margin: 5px;
+}
